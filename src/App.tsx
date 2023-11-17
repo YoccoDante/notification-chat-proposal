@@ -15,6 +15,7 @@ interface Chat {
 const App: React.FC = () => {
   
   const [notifications, setNotifications] = useState<NotificationModel[]>([
+    {from:'Martina',content:'Martina ha comentado la publicación "Cuarto en estreno"', read:false},
     {from:'Pablo',content:'Pablo ha conseguido un nuevo hogar', read:true},
     {from:'Piero',content:'Piero ha conseguido un nuevo hogar', read:true},
     {from:'Carla',content:'Carla se ha unido al chat', read:false},
